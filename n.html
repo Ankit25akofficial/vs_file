@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 70px auto;
+            background-image: url('cat-cute.png'); /* Add your image URL here */
+            background-size: cover; /* Ensures the image covers the table area */
+            background-position: center; /* Centers the image */
+        }
+        th, td {
+            border: 2px solid rgb(18, 0, 0);
+            padding: 13px;
+            text-align: center;
+            color: white; /* Optional: change text color for contrast with background image */
+        }
+      
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Table of Data</h2>
+    
+    <table cellpadding="20" cellspacing="18" bgcolor="yellow">
+        <thead>
+            <tr>
+                <th rowspan="3">DAY</th>
+                <th colspan="5">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="3">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 AM</td>
+                <td rowspan="2">11:00 AM</td>
+                <td rowspan="2">Introduction</td>
+            </tr>
+            <tr>
+                <!-- Empty row for the second part of the Monday section -->
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

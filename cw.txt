@@ -1,0 +1,12 @@
+parts of box model -example
+1) margin box
+2)border box
+3)padding box
+4)cotaint box
+
+
+
+grid templete '--->
+
+colum 
+row
